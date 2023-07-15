@@ -3,7 +3,7 @@
  * main - Entry point
  * return: 0 (Success)
  */
-int main(void)
+int main()
 {
 	char c;
 
@@ -22,6 +22,5 @@ int main(void)
 			d++;
 		}
 	putchar('\n');
-	return (0);
+	return(0);
 }
-
