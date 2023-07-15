@@ -3,7 +3,8 @@
  * main - Entry point
  * return: 0 (Success)
  */
-int main()
+
+int main(void)
 {
 	char c;
 
@@ -18,9 +19,10 @@ int main()
 		}
 	while
 		(d <= 'Z') {
-			putchar(d);
+			putchar (d);
 			d++;
 		}
 	putchar('\n');
-	return(0);
+	return (0);
 }
+
