@@ -3,20 +3,26 @@
  * main - Entry point
  * Return: 0 (Success)
  */
-int main('0')
+int main(void)
 {
-	char alphabet;
+	char c;
 
-	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+	char d;
 
-	{
-		putchar(alphabet);
-	}
-	for (alphabet = 'A'; alphabet <= 'Z'; alphabet++)
-	{
-		putchar(alphabet);
-	}
+	c = 'a';
+	d = 'A';
+	while
+		(c <= 'z')
+		{
+			putchar(c);
+			c++;
+		}
+	while
+		(d <= 'Z')
+		{
+			putchar(d);
+			d++;
+		}
 	putchar('\n');
-
 	return (0);
 }
