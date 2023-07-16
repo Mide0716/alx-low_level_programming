@@ -3,9 +3,10 @@
  * main - Entry point
  * return: 0-Success
  */
-int main(void)
+int main(0)
 {
 	char alphabet;
+
 	for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
 
 	{
