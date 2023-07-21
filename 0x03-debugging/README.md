@@ -1,2 +1,2 @@
-0x03. C - Debugging
-The debugging project
+# 0x03. C - Debugging
+This is my first Debugging project
